@@ -54,10 +54,12 @@
     </footer>
 
   </div>
-  <div class="">
+  <div class="bg-primary text-white fit row justify-center items-center  clas">
     <nav>
         <div>
-          <span>XuB</span>
+         <q-img src="">
+
+         </q-img>
         </div>
       </nav>
   </div>
@@ -73,6 +75,10 @@ export default {
 }
 </script>
 <style scoped>
+.clas{
+  margin-top: 200px;
+  padding: 10px;
+}
   a{
     text-decoration: none;
     color: black;

@@ -54,12 +54,13 @@
     </footer>
 
   </div>
-  <div class="bg-primary text-white fit row justify-center items-center  clas">
+  <div class="bg-primary  fit row justify-center items-center  clas">
     <nav>
-        <div>
-         <q-img src="">
+        <div class="fit row justify-center items-center">
+          <span class="text-Dark text-h5">
+            Panda
+          </span>
 
-         </q-img>
         </div>
       </nav>
   </div>

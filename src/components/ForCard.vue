@@ -55,13 +55,24 @@
 
   </div>
   <div class="bg-primary  fit row justify-center items-center  clas">
-    <nav>
-        <div class="fit row justify-center items-center">
-          <span class="text-Dark text-h5">
+    <nav  class="fit row justify-center items-center">
+        <div style="width:80%">
+          <span class="text-Dark text-h4">
             Panda
           </span>
+          <a class="q-ma-sm q-ml-xl text-h6" href="#">Home</a>
+          <a class="q-ma-sm text-h6" href="#">Pages</a>
+          <a  class="q-ma-sm text-h6" href="#">Portfolio</a>
+          <a  class="q-ma-sm text-h6" href="#">Blog</a>
+          <a  class="q-ma-sm text-h6" href="#">Contact</a>
+
+
 
         </div>
+         <div class="row" style="margin-left:1000px">
+             <q-input  style="width:300px" label="Outlined" />
+          <q-icon name="search" class="text-h3 q-mb-sm q-ml-md"></q-icon>
+          </div>
       </nav>
   </div>
 </template>

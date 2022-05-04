@@ -12,9 +12,6 @@
             <option value="">
              {{select.option1}}
             </option>
-            <option value="">
-             {{select.option2}}
-            </option>
           </select>
           <a class="q-mr-lg " href="#">Contact</a>
 
@@ -35,7 +32,6 @@ export default {
         {option1:'Portfolio',},
         {option1:'Pages',},
         {option1:'Blog',},
-        {option2:'Blog',},
       ]
     }
   }

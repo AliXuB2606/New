@@ -54,10 +54,11 @@
     </footer>
 
   </div>
-  <div class="bg-primary  fit row justify-center items-center  clas">
-    <nav  class="fit row justify-center items-center">
-        <div style="width:80%">
-          <span class="text-Dark text-h4">
+  <div class=" outlined bg-grey-5     clas">
+    <nav style="height:100px" class=" row justify-between  items-center ">
+        <div style="" class=" fit  row justify-around items-center">
+          <div>
+            <span class="text-Dark text-h4">
             Panda
           </span>
           <a class="q-ma-sm q-ml-xl text-h6" href="#">Home</a>
@@ -66,15 +67,32 @@
           <a  class="q-ma-sm text-h6" href="#">Blog</a>
           <a  class="q-ma-sm text-h6" href="#">Contact</a>
 
-
+          </div>
+            <div  class="items-center" >
+               <q-input Outlined class=" bg-grey-2 " height="50px" style="width:300px; border-radius:10px" label="Outlined" >
+                <q-icon name="search" class="text-h3 text-accent q-mb-sm q-ml-md" />
+               </q-input>
+             </div>
 
         </div>
-         <div class="row" style="margin-left:1000px">
-             <q-input  style="width:300px" label="Outlined" />
-          <q-icon name="search" class="text-h3 q-mb-sm q-ml-md"></q-icon>
-          </div>
+
       </nav>
   </div>
+  <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
+    <footer class=" fit row justify-around items-center">
+        <div style="" >
+          <span class="text-grey-8" >
+            Copyright © 2022 Creative Agency WordPress Theme by <a href="#"> Axilthemes</a> . All rights reserved
+          </span>
+        </div>
+        <div>
+          <a class="q-ma-md" href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
+
+  </div>
+
 </template>
 <script>
 export default {
@@ -89,7 +107,7 @@ export default {
 <style scoped>
 .clas{
   margin-top: 200px;
-  padding: 10px;
+
 }
   a{
     text-decoration: none;

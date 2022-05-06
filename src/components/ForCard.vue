@@ -209,7 +209,42 @@
         </div>
     </footer>
 
+
   </div>
+  <div class="bg-grey-6 q-mt-xl row justify-center items-center">
+            <div >
+          <span class="text-h2">
+            XuB
+          </span>
+        </div>
+      <nav class="row justify-center items-center q-ma-md">
+
+        <div class="row " v-for="bot in botlar" unelevated  :key="bot">
+            <q-btn-dropdown class="q-ma-md" color="transparent"  :label="bot.label">
+      <q-list>
+        <q-item clickable v-close-popup @click="onItemClick">
+          <q-item-section>
+            <q-item-label>Photos</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable v-close-popup @click="onItemClick">
+          <q-item-section>
+            <q-item-label>Videos</q-item-label>
+          </q-item-section>
+        </q-item>
+
+        <q-item clickable v-close-popup @click="onItemClick">
+          <q-item-section>
+            <q-item-label>Articles</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
+    </q-btn-dropdown>
+        </div>
+         <q-btn class="q-ml-xl" color="dark" text-color="white" label="Register" />
+      </nav>
+    </div>
 </template>
 <script>
 export default {
@@ -223,6 +258,15 @@ export default {
         {label:"Shop"},
         {label:"Pricing"},
         {label:"Contact us"},
+      ],
+      botlar:[
+        {label:'home'},
+        {label:'About'},
+        {label:'Pages'},
+        {label:'Blog'},
+        {label:'Showcases'},
+        {label:'Shop'},
+        {label:'Contact'},
       ]
 
     }

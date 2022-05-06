@@ -19,7 +19,7 @@
 
                       <q-item clickable v-close-popup @click="onItemClick">
                         <q-item-section>
-                          <router-link to="/ali">
+                          <router-link to="/xub">
                               <q-item-label>Videos</q-item-label>
                           </router-link>
 
@@ -65,8 +65,8 @@
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
-
   </q-layout>
+
 </template>
 <script>
 export default {
@@ -80,7 +80,7 @@ export default {
         {label:"Shop"},
         {label:"Pricing"},
         {label:"Contact us"},
-      ]
+      ],
     }
   }
 }

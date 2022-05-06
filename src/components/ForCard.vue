@@ -69,7 +69,7 @@
 
           </div>
             <div  class="items-center" >
-               <q-input Outlined class=" bg-grey-2 " height="50px" style="width:300px; border-radius:10px" label="Outlined" >
+               <q-input Outlined class=" bg-grey-2 " height="50px" style="width:300px; border-radius:10px" label="Search" >
                 <q-icon name="search" class="text-h3 text-accent q-mb-sm q-ml-md" />
                </q-input>
              </div>
@@ -82,7 +82,7 @@
     <footer class=" fit row justify-around items-center">
         <div style="" >
           <span class="text-grey-8" >
-            Copyright © 2022 Creative Agency WordPress Theme by <a href="#"> Axilthemes</a> . All rights reserved
+          AxiomThemes © 2022. All Rights Reserved.
           </span>
         </div>
         <div>
@@ -93,18 +93,146 @@
 
   </div>
 
+  <div class=" outlined bg-grey-5     clas">
+    <nav style="height:100px" class=" row justify-between  items-center ">
+        <div style="" class=" fit  row justify-around items-center">
+          <div>
+
+              <q-img width="250px" src="https://rstheme.com/products/wordpress/konstruk/wp-content/uploads/2022/03/logo_2.png" >
+
+               </q-img>
+              <a class="q-ma-sm q-ml-xl text-h6" href="#">Home+</a>
+              <a class="q-ma-sm text-h6" href="#">About</a>
+              <a class="q-ma-sm text-h6" href="#">Pages+</a>
+              <a  class="q-ma-sm text-h6" href="#">Services+</a>
+              <a  class="q-ma-sm text-h6" href="#">Blog</a>
+              <a  class="q-ma-sm text-h6" href="#">Contact</a>
+          </div>
+
+            <div  class="items-center" >
+               <q-input Outlined class=" bg-grey-2 " height="50px" style="width:300px; border-radius:10px" label="Search" >
+                <q-icon name="search" class="text-h3 text-primary q-mb-sm q-ml-md" />
+               </q-input>
+             </div>
+
+        </div>
+
+      </nav>
+  </div>
+    <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
+    <footer class=" fit row justify-around items-center">
+        <div style="" >
+          <span class="text-grey-8" >
+         © 2022 Konstruk. Designed By RSTheme.
+          </span>
+        </div>
+        <div>
+         <a class="q-ma-sm q-ml-xl text-h6" href="#">Home</a>
+              <a class="q-ma-sm text-h6" href="#">About</a>
+              <a class="q-ma-sm text-h6" href="#">Pages</a>
+              <a  class="q-ma-sm text-h6" href="#">Services</a>
+              <a  class="q-ma-sm text-h6" href="#">Blog</a>
+              <a  class="q-ma-sm text-h6" href="#">Contact</a>
+        </div>
+    </footer>
+
+  </div>
+
+
+  <div class=" outlined bg-grey-5     clas">
+    <nav style="height:100px" class=" row justify-between  items-center ">
+        <div style="" class=" fit  row justify-around items-center">
+
+                <q-tabs class="" style="position: absolute; left:0%; margin-left:50px">
+                <img  src="https://xtrm.foxthemes.me/wp-content/uploads/2018/09/white.png" alt="Xtrm" class="main-logo q-mr-xl">
+              <div class="q-pa-md justify-center items-center content-center " v-for="Button in Buttonlar" :key="Button">
+                <q-tab>
+                  <q-btn-dropdown dropdown-icon="none" ripple="none"  unelevated :label="Button.label">
+                    <q-list>
+                      <q-item clickable v-close-popup @click="onItemClick" >
+                        <q-item-section >
+
+                            <q-item-label >Photos</q-item-label>
+
+                        </q-item-section>
+                      </q-item>
+
+                      <q-item clickable v-close-popup @click="onItemClick">
+                        <q-item-section>
+
+                              <q-item-label>Videos</q-item-label>
+
+                        </q-item-section>
+                      </q-item>
+
+                      <q-item clickable v-close-popup @click="onItemClick">
+                        <q-item-section>
+
+                            <q-item-label>Articles</q-item-label>
+
+                        </q-item-section>
+                      </q-item>
+                    </q-list>
+                  </q-btn-dropdown>
+                </q-tab>
+              </div>
+                <q-icon class="q-ml-lg" name="search" style="width:100px; font-size:30px; cursor:pointer " ></q-icon>
+                <q-icon name="shopping_bag" style=" font-size:30px; cursor:pointer " ></q-icon><p><sup>0</sup></p>
+
+        </q-tabs>
+
+
+
+            <div  class="items-center" >
+
+             </div>
+
+        </div>
+
+      </nav>
+  </div>
+      <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
+    <footer class=" fit row justify-around items-center">
+        <div style=""  class=" fit row justify-around items-center">
+
+               <span class="text-h6"> © XTRM . AliXuB 2022.</span>
+
+            <div>
+              <i class="fab fa-google "></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-telegram"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </footer>
+
+  </div>
 </template>
 <script>
 export default {
   data(){
     return{
-
+      Buttonlar:[
+        {label:"Home",Data:'Snowborading'},
+        {label:"Pages", to: '/xub'},
+        {label:"Showcases"},
+        {label:"Blog"},
+        {label:"Shop"},
+        {label:"Pricing"},
+        {label:"Contact us"},
+      ]
 
     }
   }
 }
 </script>
 <style scoped>
+i{
+  margin: 5px;
+}
 .clas{
   margin-top: 200px;
 

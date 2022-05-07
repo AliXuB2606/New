@@ -295,14 +295,14 @@
 
         <div>
           <q-toolbar class="bg-grey-6 text-dark shadow-2 rounded-borders">
-                <q-btn flat label="Homepage" class="q-ml-xl" />
-                <q-space />
+                <q-btn flat label="Homepage" class="q-ml-xl slow" />
+                <!-- <q-space /> -->
 
             <!--
               notice shrink property since we are placing it
               as child of QToolbar
             -->
-            <q-tabs class="q-mr-xl"  shrink stretch>
+            <q-tabs class=""  shrink stretch>
               <q-tab name="tab1" label="Home" />
               <q-tab name="tab2" label="About" />
               <q-tab name="tab3" label="Pages" />
@@ -344,6 +344,9 @@ export default {
 }
 </script>
 <style scoped>
+.slow{
+  margin-left: 100px;
+}
 i{
   margin: 5px;
 }

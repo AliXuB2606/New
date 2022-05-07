@@ -288,6 +288,16 @@
     </footer>
   </div>
   <!-- footer N5 -->
+  <!-- navbar N6 -->
+  <div>
+    <nav>
+      <div class="container">
+        <div class="content">
+          
+        </div>
+      </div>
+    </nav>
+  </div>
 </template>
 <script>
 export default {

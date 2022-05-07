@@ -345,7 +345,7 @@ export default {
 </script>
 <style scoped>
 .slow{
-  margin-left: 100px;
+  margin-left: 200px;
 }
 i{
   margin: 5px;

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- navbar N1 -->
     <nav style="margin-top:200px"  class=" q-pa-sm q-mt-xl bg-grey-5 row justify-center items-center content-center">
       <div style="width:80%" class="row  justify-between items-center">
         <div>
@@ -40,6 +41,8 @@
       </div>
     </nav>
   </div>
+  <!-- navbar N1 -->
+  <!-- footer N1 -->
   <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
     <footer class=" fit row justify-around items-center">
         <div style="" >
@@ -54,6 +57,8 @@
     </footer>
 
   </div>
+  <!-- footer N1 -->
+  <!-- navbar N2 -->
   <div class=" outlined bg-grey-5     clas">
     <nav style="height:100px" class=" row justify-between  items-center ">
         <div style="" class=" fit  row justify-around items-center">
@@ -78,6 +83,8 @@
 
       </nav>
   </div>
+  <!-- navbar N2 -->
+  <!-- Footer N2 -->
   <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
     <footer class=" fit row justify-around items-center">
         <div style="" >
@@ -92,7 +99,8 @@
     </footer>
 
   </div>
-
+  <!-- footer N2 -->
+    <!-- navbar N3 -->
   <div class=" outlined bg-grey-5     clas">
     <nav style="height:100px" class=" row justify-between  items-center ">
         <div style="" class=" fit  row justify-around items-center">
@@ -119,6 +127,8 @@
 
       </nav>
   </div>
+  <!-- navbar N3 -->
+  <!-- footer N3 -->
     <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
     <footer class=" fit row justify-around items-center">
         <div style="" >
@@ -137,8 +147,8 @@
     </footer>
 
   </div>
-
-
+    <!-- footer N3 -->
+    <!-- navbar N4 -->
   <div class=" outlined bg-grey-5     clas">
     <nav style="height:100px" class=" row justify-between  items-center ">
         <div style="" class=" fit  row justify-around items-center">
@@ -191,6 +201,8 @@
 
       </nav>
   </div>
+  <!-- navbar N4 -->
+  <!-- footer N4 -->
       <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
     <footer class=" fit row justify-around items-center">
         <div style=""  class=" fit row justify-around items-center">
@@ -208,9 +220,9 @@
 
         </div>
     </footer>
-
-
   </div>
+  <!-- footer N4 -->
+  <!-- navbar N5 -->
   <div class="bg-grey-6 q-mt-xl row justify-center items-center">
             <div >
           <span class="text-h2">
@@ -242,9 +254,40 @@
       </q-list>
     </q-btn-dropdown>
         </div>
+         <q-btn class="q-ml-xl" color="dark" text-color="white" label="Contact" />
          <q-btn class="q-ml-xl" color="dark" text-color="white" label="Register" />
       </nav>
     </div>
+    <!-- navbar N5 -->
+    <!-- footer N5 -->
+     <div class="fit row justify-center items-center q-mt-xl bg-grey-5 q-pa-sm ">
+    <footer class=" fit row justify-around items-center">
+      <div class="row justify-around items-center">
+        <div class="q-mr-xl">
+           <span>«KUN.UZ» сайтида эълон қилинган материаллардан нусха кўчириш, тарқатиш ва бошқа шаклларда фойдаланиш фақат таҳририят ёзма <br> розилиги билан амалга оширилиши мумкин. <br>
+              Гувоҳнома: №0987. Берилган санаси: 22.06.2015 йил. Муассис: «WEB EXPERT» МЧЖ. Таҳририят манзили: 100043, Тошкент шаҳри, К. Ёрматов <br> кўчаси, 12-уй. Электрон манзил: info@kun.uz. <br>
+              Сайтда эълон қилинаётган муаллифлик мақолаларида келтирилган фикрлар муаллифга тегишли ва улар Kun.uz таҳририяти нуқтаи назарини <br> ифода этмаслиги мумкин. <br>
+              Ⓣ  - мақола ва материалларда қўйилган мазкур белги уларнинг тижорат ва реклама ҳуқуқлари асосида эълон қилинганлигини билдиради.
+           </span>
+        </div>
+            <div class="text-h5 q-ml-xl">
+              <i class="fab fa-google "></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-telegram"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+      </div>
+
+
+        <div style=""  class=" q-mt-xl fit row justify-around items-center">
+            <span class="text-h6"> © XTRM . AliXuB 2022.</span>
+
+
+        </div>
+
+    </footer>
+  </div>
+  <!-- footer N5 -->
 </template>
 <script>
 export default {
@@ -266,7 +309,7 @@ export default {
         {label:'Blog'},
         {label:'Showcases'},
         {label:'Shop'},
-        {label:'Contact'},
+
       ]
 
     }

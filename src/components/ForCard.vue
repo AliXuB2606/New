@@ -295,26 +295,34 @@
 
         <div>
           <q-toolbar class="bg-grey-6 text-dark shadow-2 rounded-borders">
-                <q-btn flat label="Homepage" class="q-ml-xl slow" />
-                <!-- <q-space /> -->
+                <q-btn flat label="Homepage" class="q-ml-xl slow text-h4" />
+
 
             <!--
               notice shrink property since we are placing it
               as child of QToolbar
             -->
-            <q-tabs class=""  shrink stretch>
+            <q-tabs class="q-ml-xl"  shrink stretch>
               <q-tab name="tab1" label="Home" />
               <q-tab name="tab2" label="About" />
               <q-tab name="tab3" label="Pages" />
               <q-tab name="tab4" label="Blog" />
               <q-tab name="tab5" label="Shocases" />
             </q-tabs>
-
+              <q-space />
+                <q-btn flat label="Register" class="q-mr-xl text-white bg-dark " />
+            <div  class="items-center" >
+               <q-input Outlined class=" bg-grey-2 q-mr-xl" height="50px" style="width:300px; border-radius:10px" label="Search" >
+                <q-icon name="search" class="text-h3 text-primary q-mb-sm q-ml-md" />
+               </q-input>
+            </div>
           </q-toolbar>
+
         </div>
       </div>
     </nav>
   </div>
+  <!-- navbar N6 -->
 </template>
 <script>
 export default {

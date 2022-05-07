@@ -323,6 +323,36 @@
     </nav>
   </div>
   <!-- navbar N6 -->
+  <!-- footer N6 -->
+  <div class=" q-mt-xl bg-grey-6 ">
+    <footer class=" ">
+      <div class=" row justify-around items-center">
+        <div class="q-ml-xl ">
+           <span>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora maiores <br> deserunt odio reiciendis totam doloremque quis enim, quidem consequatur deleniti <br> facilis quas et consectetur modi? Illo pariatur perferendis hic in nostrum mollitia <br> voluptates expedita, corrupti magnam rem, officia laborum tempore dolorem <br> inventore voluptate suscipit sunt eius, doloremque nisi. Atque!
+           </span>
+        </div>
+        <div class="column text-h6">
+          <a href="#">Contact Us</a>
+          <a href="#">More</a>
+        </div>
+
+      </div>
+
+
+        <div style=""  class=" q-mt-xl fit row justify-around items-center">
+            <span class="text-h6">Autor is AliXuB.2006.</span>
+             <div class="text-h5 q-ml-xl">
+              <i class="fab fa-google "></i>
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-telegram"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+
+        </div>
+
+    </footer>
+  </div>
 </template>
 <script>
 export default {

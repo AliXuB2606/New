@@ -224,38 +224,38 @@
   <!-- footer N4 -->
   <!-- navbar N5 -->
   <div class="bg-grey-6 q-mt-xl row justify-center items-center">
-            <div >
+         <div >
           <span class="text-h2">
             XuB
           </span>
         </div>
       <nav class="row justify-center items-center q-ma-md">
 
-        <div class="row " v-for="bot in botlar" unelevated  :key="bot">
+          <div class="row " v-for="bot in botlar" unelevated  :key="bot">
             <q-btn-dropdown class="q-ma-md" color="transparent"  :label="bot.label">
-      <q-list>
-        <q-item clickable v-close-popup @click="onItemClick">
-          <q-item-section>
-            <q-item-label>Photos</q-item-label>
-          </q-item-section>
-        </q-item>
+              <q-list>
+                <q-item clickable v-close-popup @click="onItemClick">
+                  <q-item-section>
+                    <q-item-label>Photos</q-item-label>
+                  </q-item-section>
+                </q-item>
 
-        <q-item clickable v-close-popup @click="onItemClick">
-          <q-item-section>
-            <q-item-label>Videos</q-item-label>
-          </q-item-section>
-        </q-item>
+                <q-item clickable v-close-popup @click="onItemClick">
+                  <q-item-section>
+                    <q-item-label>Videos</q-item-label>
+                  </q-item-section>
+                </q-item>
 
-        <q-item clickable v-close-popup @click="onItemClick">
-          <q-item-section>
-            <q-item-label>Articles</q-item-label>
-          </q-item-section>
-        </q-item>
-      </q-list>
-    </q-btn-dropdown>
-        </div>
-         <q-btn class="q-ml-xl" color="dark" text-color="white" label="Contact" />
-         <q-btn class="q-ml-xl" color="dark" text-color="white" label="Register" />
+                <q-item clickable v-close-popup @click="onItemClick">
+                  <q-item-section>
+                    <q-item-label>Articles</q-item-label>
+                  </q-item-section>
+                </q-item>
+              </q-list>
+            </q-btn-dropdown>
+          </div>
+          <q-btn class="q-ml-xl" color="dark" text-color="white" label="Contact" />
+          <q-btn class="q-ml-xl" color="dark" text-color="white" label="Register" />
       </nav>
     </div>
     <!-- navbar N5 -->
@@ -289,11 +289,27 @@
   </div>
   <!-- footer N5 -->
   <!-- navbar N6 -->
-  <div>
+  <div class="q-mt-xl">
     <nav>
       <div class="container">
-        <div class="content">
-          
+
+        <div>
+          <q-toolbar class="bg-grey-6 text-dark shadow-2 rounded-borders">
+                <q-btn flat label="Homepage" class="q-ml-xl" />
+                <q-space />
+
+            <!--
+              notice shrink property since we are placing it
+              as child of QToolbar
+            -->
+            <q-tabs class="q-mr-xl"  shrink stretch>
+              <q-tab name="tab1" label="Home" />
+              <q-tab name="tab2" label="About" />
+              <q-tab name="tab3" label="Pages" />
+              <q-tab name="tab4" label="Blog" />
+              <q-tab name="tab5" label="Shocases" />
+            </q-tabs>
+          </q-toolbar>
         </div>
       </div>
     </nav>

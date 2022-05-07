@@ -327,7 +327,7 @@
   <div class=" q-mt-xl bg-grey-6 ">
     <footer class=" ">
       <div class=" row justify-around items-center">
-        <div class="q-ml-xl ">
+        <div class="q-ml-xl q-mt-md ">
            <span>
              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora maiores <br> deserunt odio reiciendis totam doloremque quis enim, quidem consequatur deleniti <br> facilis quas et consectetur modi? Illo pariatur perferendis hic in nostrum mollitia <br> voluptates expedita, corrupti magnam rem, officia laborum tempore dolorem <br> inventore voluptate suscipit sunt eius, doloremque nisi. Atque!
            </span>
@@ -353,6 +353,7 @@
 
     </footer>
   </div>
+  <!-- footer N6 -->
 </template>
 <script>
 export default {

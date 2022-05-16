@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <ForCard/>
+  <ForCard/>
   </q-page>
 </template>
 <script>

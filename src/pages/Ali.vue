@@ -31,7 +31,8 @@
                 <div class="column text-white content">
                   <span class="container text-h5"> newsletter</span>
                   <span class="text-h6">
-			            A well-executed brand strategy affects all aspects of a business and is <br> connected to consumer needs & emotions.                    </span>
+			               A well-executed brand strategy affects all aspects of a business and is <br> connected to consumer needs & emotions.
+                  </span>
                 </div>
                  <div class="q-mt-xl row q-mb-xl bg-dark content">
                 <q-input outlined class="bg-white" label="Entet Your Email" style="width:300px; " />

@@ -43,21 +43,158 @@
               </div>
 
             </div>
-            <div class="row flex flex-center raqam">
-                <div class="column text-dark justify-center items-center q-mt-xl ">
-                    <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                    <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
-                </div>
-                <div class="">
-                  <span class="text-red text-h3 q-ml-md ">1</span>
+            <div class="row">
+              <div class=" row flex flex-center justify-around content-around ">
+                <div style="margin:100px; margin-top:25px;"  v-for="card in cards" :key="card" class="row wrap big">
+                    <div class="column text-dark justify-center items-center q-mt-xl ">
+                      <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
+                      <span :class="card.clas"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                  </div>
+                  <div class="raqam">
+                    <span class="text-red text-h3 q-ml-md  ">{{card.raqam}}</span>
+                  </div>
                 </div>
               </div>
-              <div class="row raqam1  ">
+            </div>
+
+
+              <div class="row">
+                <div class="ssoz column">
+                  <span class=" text-h6">
+                    Testimonials
+                  </span>
+                  <span class="text-weight-bolder text-h4">
+                    Our Customers Said About
+                    <span class="bg-dark ">
+                      XTRM
+                    </span>
+                  </span>
+                </div>
+
+              </div>
+              <div class=" div  text-h6 no-wrap justify-center items-center content-center"   style="border-radius:100%; border:1px solid white; width:100px; height:100px; margin-top:">
+
+                   <span class=" span"> ,,</span>
+
+              </div>
+
+          </q-img>
+
+
+
+        </div>  <Morgen/>
+
+
+            <Footer class="footer"/>
+
+  </q-page>
+</template>
+<script>
+
+import ALiXub from "../components/ALiXub..vue";
+import Xcho from "../components/Xcho.vue";
+import Morgen from "../components/Morgen.vue";
+import Footer from "src/components/Footer.vue";
+export default {
+  data(){
+    return{
+      components: { ALiXub, Morgen, Xcho, Footer },
+      cards:[
+        {raqam:'1'},
+        {raqam:'5', clas:'text-left' },
+        {raqam:'2'},
+        {raqam:'4'},
+        {raqam:'3'},
+        {raqam:'6'},
+      ]
+    }
+
+    }
+
+
+}
+</script>
+<style scoped>
+
+.q-img__content > div{
+  background: transparent;
+}
+.ali{
+  margin-bottom:1050px ;
+}
+
+.raqam{
+ margin-top: 50px;
+
+}
+/* .raqam1{
+  margin-top: 450px;
+  margin-left: 200px;
+
+}
+.raqam2{
+  margin-top: 590px;
+   margin-left: 200px;
+}
+.raqam3{
+  margin-left: 900px;
+  margin-top: 300px;
+}
+.raqam4{
+  margin-left: 900px;
+  margin-top: 450px;
+}
+.raqam5{
+  margin-left: 900px;
+  margin-top: 590px;
+} */
+.ssoz{
+  margin-top: 850px;
+  margin-left: 200px;
+}
+.div{
+  margin-top: 850px;
+  margin-left: 1050px;
+}
+.span{
+  font-size: 100px;
+  margin-left: 10px;
+  margin-bottom: 1000px;
+
+
+}
+.div1{
+  margin-bottom: 200px;
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="q-mt-xl ">
+ <div class="row raqam1  ">
                 <div  class="column text-dark justify-center items-center q-mt-xl" >
                      <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
                     <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
                 </div>
-                <div class="q-mt-xl ">
+
+
+              </div>
                   <span class="text-h3 text-red q-ml-md" >2</span>
                 </div>
               </div>
@@ -97,104 +234,4 @@
                 <div class="column text-dark justify-center items-center q-mt-xl">
                      <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
                     <span class="text-left"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
-                </div>
-
-              </div>
-              <div class="row">
-                <div class="ssoz column">
-                  <span class=" text-h6">
-                    Testimonials
-                  </span>
-                  <span class="text-weight-bolder text-h4">
-                    Our Customers Said About
-                    <span class="bg-dark ">
-                      XTRM
-                    </span>
-                  </span>
-                </div>
-
-              </div>
-              <div class=" div  text-h6 no-wrap justify-center items-center content-center"   style="border-radius:100%; border:1px solid white; width:100px; height:100px; margin-top:">
-
-                   <span class=" span"> ,,</span>
-
-              </div>
-
-          </q-img>
-
-
-
-        </div>  <Morgen/>
-
-
-            <Footer class="footer"/>
-
-  </q-page>
-</template>
-<script>
-
-import ALiXub from "../components/ALiXub..vue";
-import Xcho from "../components/Xcho.vue";
-import Morgen from "../components/Morgen.vue";
-import Footer from "src/components/Footer.vue";
-export default {
-    components: { ALiXub, Morgen, Xcho, Footer }
-}
-</script>
-<style scoped>
-
-.q-img__content > div{
-  background: transparent;
-}
-.ali{
-  margin-bottom:1050px ;
-}
-.raqam{
- margin-top: 300px;
- margin-left: 200px;
-}
-.raqam1{
-  margin-top: 450px;
-  margin-left: 200px;
-
-}
-.raqam2{
-  margin-top: 590px;
-   margin-left: 200px;
-}
-.raqam3{
-  margin-left: 900px;
-  margin-top: 300px;
-}
-.raqam4{
-  margin-left: 900px;
-  margin-top: 450px;
-}
-.raqam5{
-  margin-left: 900px;
-  margin-top: 590px;
-}
-.ssoz{
-  margin-top: 850px;
-  margin-left: 200px;
-}
-.div{
-  margin-top: 850px;
-  margin-left: 1050px;
-}
-.span{
-  font-size: 100px;
-  margin-left: 10px;
-  margin-bottom: 1000px;
-
-
-}
-.div1{
-  margin-bottom: 200px;
-}
-
-
-
-
-
-</style>
+                </div> -->

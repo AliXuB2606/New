@@ -11,7 +11,7 @@
                     <q-list>
                       <q-item clickable v-close-popup @click="onItemClick" >
                         <q-item-section >
-                          <router-link to="/xub">
+                          <router-link to="/">
                             <q-item-label >Photos</q-item-label>
                           </router-link>
                         </q-item-section>

@@ -48,7 +48,7 @@
                 <div style="margin:100px; margin-top:25px;"  v-for="card in cards" :key="card" class="row wrap big">
                     <div class="column text-dark justify-center items-center q-mt-xl ">
                       <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                      <span :class="card.clas"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      <span :class="card.class"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
                   </div>
                   <div class="raqam">
                     <span class="text-red text-h3 q-ml-md  ">{{card.raqam}}</span>
@@ -100,12 +100,12 @@ export default {
     return{
       components: { ALiXub, Morgen, Xcho, Footer },
       cards:[
-        {raqam:'1'},
-        {raqam:'5', clas:'text-left' },
-        {raqam:'2'},
-        {raqam:'4'},
-        {raqam:'3'},
-        {raqam:'6'},
+        {raqam:'1', class:'text-right'},
+        {raqam:'5', class:'text-left' },
+        {raqam:'2', class:'text-right'},
+        {raqam:'4', class:'text-left'},
+        {raqam:'3', class:'text-right'},
+        {raqam:'6', class:'text-left'},
       ]
     }
 

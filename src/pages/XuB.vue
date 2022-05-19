@@ -33,7 +33,8 @@
             </div>
           </div>
         </div>
-        <ALiXub class="card fit row no-wrap justify-around items-center" />
+        <ALiXub class="card fit row no-wrap justify-around items-center"/>
+
         <div>
           <q-img src="http://xtrm.foxthemes.me/wp-content/uploads/2019/02/wer.png?id=4983">
             <div class="absolute-full flex flex-center">
@@ -82,36 +83,35 @@
 
 
 
-        </div>  <Morgen/>
+        </div> <Morgen/>
 
 
-            <Footer class="footer"/>
+
+
+      <Pasgi/>
 
   </q-page>
 </template>
 <script>
+import Morgen from 'src/components/Morgen.vue'
+import Pasgi from '../components/Pasgi.vue'
+import ALiXub from '../components/ALiXub.vue'
 
-import ALiXub from "../components/ALiXub..vue";
-import Xcho from "../components/Xcho.vue";
-import Morgen from "../components/Morgen.vue";
-import Footer from "src/components/Footer.vue";
+
 export default {
-  data(){
-    return{
-      components: { ALiXub, Morgen, Xcho, Footer },
-      cards:[
-        {raqam:'1', class:'text-right'},
-        {raqam:'5', class:'text-left' },
-        {raqam:'2', class:'text-right'},
-        {raqam:'4', class:'text-left'},
-        {raqam:'3', class:'text-right'},
-        {raqam:'6', class:'text-left'},
-      ]
-    }
-
-    }
-
-
+    data() {
+        return {
+            cards: [
+                { raqam: "1", class: "text-right" },
+                { raqam: "5", class: "text-left" },
+                { raqam: "2", class: "text-right" },
+                { raqam: "4", class: "text-left" },
+                { raqam: "3", class: "text-right" },
+                { raqam: "6", class: "text-left" },
+            ]
+        };
+    },
+    components: { Morgen, Pasgi, ALiXub }
 }
 </script>
 <style scoped>

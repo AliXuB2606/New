@@ -40,19 +40,19 @@
             <div class="absolute-full flex flex-center">
               <div class="ali column justify-center items-center">
                 <span class="text-grey ">features</span>
-                <span class="text-dark text-h4">Why You Shoud <span class="bg-dark text-white">Shoose Us?</span></span>
+                <span class="text-dark text-h4">Why You Shoud <span class="bg-dark text-white">Choose Us?</span></span>
               </div>
 
             </div>
             <div class="row">
-              <div class=" row flex flex-center justify-around content-around ">
+              <div class=" raqam row flex flex-center justify-around content-around ">
                 <div style="margin:100px; margin-top:25px;"  v-for="card in cards" :key="card" class="row wrap big">
                     <div class="column text-dark justify-center items-center q-mt-xl ">
                       <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                      <span :class="card.class"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      <span :class="card.class" class=""> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
                   </div>
-                  <div class="raqam">
-                    <span class="text-red text-h3 q-ml-md  ">{{card.raqam}}</span>
+                  <div class="">
+                    <span class="text-red text-h4 q-ml-md " >{{card.raqam}}</span>
                   </div>
                 </div>
               </div>
@@ -102,8 +102,8 @@ export default {
     data() {
         return {
             cards: [
-                { raqam: "1", class: "text-right" },
-                { raqam: "5", class: "text-left" },
+                { raqam: "1", class: "text-right"},
+                { raqam: "5", class: "text-left ", },
                 { raqam: "2", class: "text-right" },
                 { raqam: "4", class: "text-left" },
                 { raqam: "3", class: "text-right" },
@@ -123,8 +123,9 @@ export default {
   margin-bottom:1050px ;
 }
 
+
 .raqam{
- margin-top: 50px;
+ margin-bottom: -100px;
 
 }
 /* .raqam1{

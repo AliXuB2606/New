@@ -46,15 +46,17 @@
             </div>
             <div class="row">
               <div class=" raqam row flex flex-center justify-around content-around ">
-                <div style="margin:100px; margin-top:25px;"  v-for="card in cards" :key="card" class="row wrap big">
-                    <div class="column text-dark justify-center items-center q-mt-xl ">
-                      <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                      <span :class="card.class" class=""> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                  <div class="q-mt-xl ">
+                    <div class="row raqam1  ">
+                      <div  class="column text-dark justify-center items-center q-mt-xl" >
+                          <span class="text-h3 text-red q-ml-md" >2</span>
+                          <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
+                          <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="">
-                    <span class="text-red text-h4 q-ml-md " >{{card.raqam}}</span>
-                  </div>
-                </div>
+
               </div>
             </div>
 
@@ -103,7 +105,7 @@ export default {
         return {
             cards: [
                 { raqam: "1", class: "text-right"},
-                { raqam: "5", class: "text-left ", },
+                { raqam: "5", class: "text-left ", style:'margin-right:100px;' },
                 { raqam: "2", class: "text-right" },
                 { raqam: "4", class: "text-left" },
                 { raqam: "3", class: "text-right" },
@@ -124,31 +126,10 @@ export default {
 }
 
 
-.raqam{
- margin-bottom: -100px;
 
-}
-/* .raqam1{
-  margin-top: 450px;
-  margin-left: 200px;
 
-}
-.raqam2{
-  margin-top: 590px;
-   margin-left: 200px;
-}
-.raqam3{
-  margin-left: 900px;
-  margin-top: 300px;
-}
-.raqam4{
-  margin-left: 900px;
-  margin-top: 450px;
-}
-.raqam5{
-  margin-left: 900px;
-  margin-top: 590px;
-} */
+
+
 .ssoz{
   margin-top: 850px;
   margin-left: 200px;
@@ -187,52 +168,3 @@ export default {
 
 
 
-<!-- <div class="q-mt-xl ">
- <div class="row raqam1  ">
-                <div  class="column text-dark justify-center items-center q-mt-xl" >
-                     <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                    <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
-                </div>
-
-
-              </div>
-                  <span class="text-h3 text-red q-ml-md" >2</span>
-                </div>
-              </div>
-              <div class="row raqam2">
-                <div class="column text-dark justify-center items-center q-mt-xl">
-                     <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                    <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
-                </div>
-                <div class="q-mt-xl ">
-                  <span class="text-h3 text-red q-ml-md" >3</span>
-                </div>
-              </div>
-              <div class="row raqam3">
-                <div class="q-mt-xl ">
-                  <span class="text-h3 text-red q-mr-md" >4</span>
-                </div>
-                <div class="column text-dark justify-center items-center q-mt-xl">
-                     <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                    <span class="text-left"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
-                </div>
-
-              </div>
-               <div class="row raqam4">
-                <div class="q-mt-xl ">
-                  <span class="text-h3 text-red q-mr-md" >5</span>
-                </div>
-                <div class="column text-dark justify-center items-center q-mt-xl">
-                     <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                    <span class="text-left"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
-                </div>
-
-              </div>
-               <div class="row raqam5">
-                <div class="q-mt-xl ">
-                  <span class="text-h3 text-red q-mr-md" >6</span>
-                </div>
-                <div class="column text-dark justify-center items-center q-mt-xl">
-                     <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
-                    <span class="text-left"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
-                </div> -->

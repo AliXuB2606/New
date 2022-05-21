@@ -40,19 +40,101 @@
             <div class="absolute-full flex flex-center">
               <div class="ali column justify-center items-center">
                 <span class="text-grey ">features</span>
-                <span class="text-dark text-h4">Why You Shoud <span class="bg-dark text-white">Choose Us?</span></span>
+                <span class="text-dark text-h4">Why You Shoud <span class="bg-dark text-white">Shoose Us?</span></span>
               </div>
 
             </div>
             <div class="row">
               <div class=" raqam row flex flex-center justify-around content-around ">
-                  <div class="q-mt-xl ">
+                  <div class="q-mt-xl " style="margin-top:300px; margin-left:300px;">
                     <div class="row raqam1  ">
                       <div  class="column text-dark justify-center items-center q-mt-xl" >
-                          <span class="text-h3 text-red q-ml-md" >2</span>
-                          <span class="text-h6 text-weight-bolder q-mb-sm" >Unique Coast</span>
+
+                          <span class="text-h6 text-weight-bolder q-mb-sm" style="margin-left:190px;" >Unique Coast</span>
                           <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
                       </div>
+                       <span class="text-h3 text-red q-ml-md" style="margin-top:50px;"  >1</span>
+                    </div>
+
+                  </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class=" raqam row flex flex-center justify-around content-around ">
+                  <div class="q-mt-xl " style="margin-top:500px; margin-left:300px;">
+                    <div class="row raqam1  ">
+                      <div  class="column text-dark justify-center items-center q-mt-xl" >
+
+                          <span class="text-h6 text-weight-bolder q-mb-sm" style="margin-left:190px;" >Unique Coast</span>
+                          <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      </div>
+                       <span class="text-h3 text-red q-ml-md" style="margin-top:50px;"  >2</span>
+                    </div>
+
+                  </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class=" raqam row flex flex-center justify-around content-around ">
+                  <div class="q-mt-xl " style="margin-top:700px; margin-left:300px;">
+                    <div class="row raqam1  ">
+                      <div  class="column text-dark justify-center items-center q-mt-xl" >
+
+                          <span class="text-h6 text-weight-bolder q-mb-sm" style="margin-left:190px;" >Unique Coast</span>
+                          <span class="text-right"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      </div>
+                       <span class="text-h3 text-red q-ml-md" style="margin-top:50px;"  >3</span>
+                    </div>
+
+                  </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class=" raqam row flex flex-center justify-around content-around ">
+                  <div class="q-mt-xl  " style="margin-left:1000px; margin-top:300px;" >
+                    <div class="row raqam1 " >
+                      <span class="text-h3  text-red q-ml-md" style="margin-top:50px; margin-right:20px;">4</span>
+                      <div  class="column text-dark justify-center items-center q-mt-xl " >
+                          <span class="text-h6 text-weight-bolder q-mb-sm" style="margin-right:200px;" >Unique Coast</span>
+                          <span class="text-left"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class=" raqam row flex flex-center justify-around content-around ">
+                  <div class="q-mt-xl  " style="margin-left:1000px; margin-top:500px;" >
+                    <div class="row raqam1 " >
+                      <span class="text-h3  text-red q-ml-md" style="margin-top:50px; margin-right:20px;">5</span>
+                      <div  class="column text-dark justify-center items-center q-mt-xl " >
+                          <span class="text-h6 text-weight-bolder q-mb-sm" style="margin-right:200px;" >Unique Coast</span>
+                          <span class="text-left"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+              </div>
+            </div>
+             <div class="row">
+              <div class=" raqam row flex flex-center justify-around content-around ">
+                  <div class="q-mt-xl  " style="margin-left:1000px; margin-top:700px;" >
+                    <div class="row raqam1 " >
+                      <span class="text-h3  text-red q-ml-md" style="margin-top:50px; margin-right:20px;">6</span>
+                      <div  class="column text-dark justify-center items-center q-mt-xl " >
+                          <span class="text-h6 text-weight-bolder q-mb-sm" style="margin-right:200px;" >Unique Coast</span>
+                          <span class="text-left"> Vestibulum rutrum quam vitae fringilla tincidunt. <br> Suspendisse nec tortor urna. Ut laoreet sodales nisi, <br> quis iaculis</span>
+                      </div>
+
                     </div>
 
                   </div>
@@ -61,8 +143,8 @@
             </div>
 
 
-              <div class="row">
-                <div class="ssoz column">
+              <div class="row" style="margin-top:150px;" >
+                <div class="ssoz column" >
                   <span class=" text-h6">
                     Testimonials
                   </span>
@@ -75,7 +157,7 @@
                 </div>
 
               </div>
-              <div class=" div  text-h6 no-wrap justify-center items-center content-center"   style="border-radius:100%; border:1px solid white; width:100px; height:100px; margin-top:">
+              <div class=" div  text-h6 no-wrap justify-center items-center content-center"   style="border-radius:100%; border:1px solid white; width:100px; height:100px; margin-top:;">
 
                    <span class=" span"> ,,</span>
 
@@ -103,14 +185,7 @@ import ALiXub from '../components/ALiXub.vue'
 export default {
     data() {
         return {
-            cards: [
-                { raqam: "1", class: "text-right"},
-                { raqam: "5", class: "text-left ", style:'margin-right:100px;' },
-                { raqam: "2", class: "text-right" },
-                { raqam: "4", class: "text-left" },
-                { raqam: "3", class: "text-right" },
-                { raqam: "6", class: "text-left" },
-            ]
+           
         };
     },
     components: { Morgen, Pasgi, ALiXub }
@@ -122,7 +197,7 @@ export default {
   background: transparent;
 }
 .ali{
-  margin-bottom:1050px ;
+  margin-bottom:1200px ;
 }
 
 
@@ -135,8 +210,8 @@ export default {
   margin-left: 200px;
 }
 .div{
-  margin-top: 850px;
-  margin-left: 1050px;
+  margin-top: 1000px;
+  margin-left: 1350px;
 }
 .span{
   font-size: 100px;
@@ -168,3 +243,4 @@ export default {
 
 
 
+<!-- style="margin-top:200px; margin-left:1050px;" -->

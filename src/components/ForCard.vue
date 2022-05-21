@@ -514,6 +514,19 @@
       </footer>
     </div>
   <!-- footer n9 -->
+  <!-- Navbar n10 -->
+    <div class="bg-grey-6 q-mt-xl">
+      <nav class="q-pa-md">
+        <div>
+          <div>
+            <span class="text-h3">
+              Logo
+            </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+  <!-- Navbar n10 -->
 </template>
 <script>
 export default {

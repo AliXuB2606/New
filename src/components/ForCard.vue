@@ -484,10 +484,19 @@
   </div>
   <!-- navbar n9 -->
   <!-- footer n9 -->
-    <div class="bg-grey-6">
-      <footer>
+    <div class="bg-grey-6 ">
+      <footer class="q-mt-xl">
         <div>
-
+            <div>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam beatae animi saepe reprehenderit explicabo porro quae eveniet, voluptatum et aspernatur ut itaque ad quam laboriosam fuga officia at ea quod.</span>
+          <span class="text-grey-8" >
+            Copyright © 2022 Creative Agency WordPress Theme by <a href="#"> Axilthemes</a> . All rights reserved
+          </span>
+        </div>
+        <div>
+          <a class="q-ma-md" href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+        </div>
         </div>
       </footer>
     </div>

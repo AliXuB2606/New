@@ -517,11 +517,40 @@
   <!-- Navbar n10 -->
     <div class="bg-grey-6 q-mt-xl">
       <nav class="q-pa-md">
-        <div>
+        <div class="row justify-center">
+            <div>
+              <span class="text-h3">
+                Logo
+              </span>
+            </div>
           <div>
-            <span class="text-h3">
-              Logo
-            </span>
+            <select class="q-ma-sm" name="" id="">
+              <option value="">
+                Digital Agency
+              </option>
+            </select>
+            <select class="q-ma-sm" name="" id="">
+              <option value="">
+              Services
+              </option>
+            </select>
+            <select class="q-ma-sm" name="" id="">
+              <option value="">
+                Portfolio
+              </option>
+            </select>
+            <select class="q-ma-sm" name="" id="">
+              <option value="">
+                Pages
+              </option>
+            </select>
+            <select class="q-ma-sm" name="" id="">
+              <option value="">
+                Blog
+              </option>
+            </select>
+            <a class="q-ma-md" href="#">Contact</a>
+            <q-icon class="q-mr-lg icon " name="shopping_cart" size="28px" />
           </div>
         </div>
       </nav>

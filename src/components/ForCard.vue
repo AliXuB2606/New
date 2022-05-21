@@ -443,12 +443,55 @@
   <!-- footer N8  -->
   <!-- navbar n9 -->
   <div class="bg-grey-6 q-mt-xl">
-    <nav>
-      <div>
+    <nav class="jusify-center items-center q-pa-md">
+
+      <div class="row q-ml-xl">
+        <div class="">
+          <span class="text-h3 q-pa-xl">Logo</span>
+        </div>
+        <div class="row " v-for="bot in botlar" unelevated  :key="bot">
+            <q-btn-dropdown class="q-ma-md" color="transparent"  :label="bot.label">
+              <q-list>
+                <q-item clickable v-close-popup @click="onItemClick">
+                  <q-item-section>
+                    <q-item-label>Photos</q-item-label>
+                  </q-item-section>
+                </q-item>
+
+                <q-item clickable v-close-popup @click="onItemClick">
+                  <q-item-section>
+                    <q-item-label>Videos</q-item-label>
+                  </q-item-section>
+                </q-item>
+
+                <q-item clickable v-close-popup @click="onItemClick">
+                  <q-item-section>
+                    <q-item-label>Articles</q-item-label>
+                  </q-item-section>
+                </q-item>
+              </q-list>
+            </q-btn-dropdown>
+          </div>
+          <div class="jusrify-center items-center row">
+             <q-input Outlined class=" bg-grey-2 q-mx-xl" height="50px" style="width:300px; border-radius:10px" label="Search" >
+               <q-icon name="search" class="text-h3 text-primary q-mb-sm q-ml-md" />
+            </q-input>
+            <q-btn flat label="Register" class="q-mr-xl text-white bg-dark " />
+          </div>
 
       </div>
     </nav>
   </div>
+  <!-- navbar n9 -->
+  <!-- footer n9 -->
+    <div class="bg-grey-6">
+      <footer>
+        <div>
+
+        </div>
+      </footer>
+    </div>
+  <!-- footer n9 -->
 </template>
 <script>
 export default {

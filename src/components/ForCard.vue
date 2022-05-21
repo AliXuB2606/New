@@ -441,6 +441,14 @@
 
   </div>
   <!-- footer N8  -->
+  <!-- navbar n9 -->
+  <div class="bg-grey-6 q-mt-xl">
+    <nav>
+      <div>
+
+      </div>
+    </nav>
+  </div>
 </template>
 <script>
 export default {

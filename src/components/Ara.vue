@@ -44,7 +44,7 @@
   <!-- footer n9 -->
     <div class="bg-grey-6 ">
       <footer class="q-mt-xl ">
-        <div class="row justify-center items-center q-mx-md">
+        <div class="row justify-center items-center q-mx-md q-mb-xl">
             <div class="column">
               <div class="q-pa-sm">
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quisquam beatae animi saepe reprehenderit explicabo porro quae eveniet, <br> voluptatum et aspernatur ut itaque ad quam <br> laboriosam fuga officia at ea quod.</span>

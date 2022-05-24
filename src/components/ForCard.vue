@@ -77,7 +77,7 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style >
 .slow{
   margin-left: 200px;
 }
